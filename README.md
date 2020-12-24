@@ -16,7 +16,7 @@ git log							# 查看本地提交记录
 
 ```bash
 git reset --hard HEAD^  	  # 返回上一次提交
-git reset --hart commit_id    # 版本回退到某一次提交
+git reset --hard commit_id    # 版本回退到某一次提交
 git checkout -- file		  # 撤销某个未添加到工作区的文件的修改
 							  # 如果文件已经添加到工作区，则使用git reset
 ```
