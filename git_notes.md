@@ -44,6 +44,7 @@ git branch	dev				# 创建dev分支
 git checkout dev			# 从master分支切换到dev分支
 git branch -d dev			# 删除dev分支
 git merge dev				# 将dev分支合并到当前分支
+git push origin v1.x		# 将本地v1.x分支推送到远端
 ```
 
 
